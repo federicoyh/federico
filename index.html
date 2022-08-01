@@ -1,7 +1,27 @@
 <html>
   <head>
-    <meta charset="utf-8">
     <title>MY FIRST WEBSITE</title>
+    <i class="bi bi-1-circle"></i>
+    <meta charset="utf-8">
+    <div class = "first-container”">
+      <nav>
+       <div id="tab">
+         <a href='#home'>
+          <a class="btn" href=" ">HOME</a>
+          <a href='#introduction'>
+            <a class="btn" href="#introduction">MYSELF</a>
+          <a href='#hobby'></a>
+          <a class="btn" href="#hobby">HOBBY</a>
+          <a href='#food'></a>
+          <a class="btn" href="#food">FOOD I LIKE</a>
+          <a href='#contacts'>
+            <a class="btn" href="#contacts ">CONTACTS</a>
+          <i class="bi bi-1-circle"></i>
+       </a>
+      </div>
+       </div>
+      </nav>
+     </div>
     </style>
     <link rel="stylesheet" href= "css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -9,27 +29,85 @@
     <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap" rel="stylesheet" />
     <link rel="icon" href= "img/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <button class="btn"><i class="fa fa-home"></i></button>
-    <button class="btn"><i class="fa fa-bars"></i></button>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class = “first-container”>icon botton</div>
-    <h2>SELF-INTRODUCTION</h2>
+    <div class = “first-container”></div>
+    <a id="introduction"></a>
+    <h2>SELF-INTRODUCTION</h2 href= "home">
     <p>My name is Federico, i'm 14 years old, I was born in Italy, the city was Carpi, but now I live in Rome</p>
-    <h3>My hobbies are🎮:</h3>
+    <p>I'm a <span style="color:blue">STUDENT</span> in Rome</p>
+    <div class = “second-container”></div>
+    <a id="hobby"></a>
+    <h3>My hobbies are🎮:</h3 href= "hobby">
   <ul>
     <li class="hobbies">play games</li>
-  <li class="hobbies">build things</li>
-  <li class="hobbies">clean my house</li>
   </ul>
+    <div class = “PHOTO”></div>
+    <img src="img/photo5.png" alt="photo5.png" />
+    <p>in the free time, i like to play some games</p>
+
+  <ul>
+    <li class="hobbies">build things</li>
+  </ul>
+    <div class = “PHOTO”></div>
+    <img src="img/photo6.png" alt="photo6.png" />
+    <p>build things is my another hobby,i like to made things</p>
+
+  <ul>
+    <li class="hobbies">clean my house</li>
+  </ul>
+    <div class = “PHOTO”></div>
+    <img src="img/photo7.png" alt="photo7.png" />
+    <p>when i have nothing to do,i enjoy to clean my house</p>
+
   <hr><br>
-    <h3>I like eating🍉:</h3>
-  <ol>
-    <li class="food">pizza</li>
-  <li class="food">dumpling</li>
-  <li class="food">fried noodles</li>
-  <hr >
-  </ol>
+<a id="food"></a>
+  <div class = “second-container”></div>
+    <h3>I like eating🍉:</h3 href= "food i like">
+
+  <ul>
+    <li class="food">pizza🍕</li>
+  </ul>
+  <div class = “PHOTO”></div>
+    <img src="img/photo2.png" alt="photo2.png" />
+    <p>this one is the Italian food which I enjoy most, I ate the pizza since when I was small, my favourite is the
+      <a href='https://it.wikipedia.org/wiki/Pizza_Margherita'>
+        <button>
+            MARGHERITA
+        </button>
+      </a>
+    </p>
+
+  <ul>
+    <li class="food">dumpling🥟</li>
+  </ul>
+  <div class = “PHOTO”></div>
+    <img src="img/photo3.png" alt="photo3.png" />
+    <p>this one is my favourite chinese food it can be with many things in the dumplings, I most enjoy the meat dumplings, but
+     <a href='https://baike.baidu.com/item/%E7%85%8E%E9%A5%BA/2355137'>
+       <button>
+           FRIED
+       </button>
+     </a>
+    </p>
+
+  <ul>
+     <li class="food">fried noodles🍝</li>
+  </ul>
+  <div class = “PHOTO”></div>
+  <img src="img/photo4.png" alt="photo4.png" />
+  <p>this one is fried noodles, there are many types, I really enjoy it
+   <a href='https://baike.baidu.com/item/%E7%82%92%E9%9D%A2/3102837'>
+    <button>
+        (FRIED NOODLES)
+    </button>
+  </a>
+ </p>
+
   <style>
      ol {
         color:rgb(52, 183, 52);
@@ -39,25 +117,39 @@
         color:rgb(148, 239, 148);
         margin-left: 10px;  margin-right: 1100px;
      }
+     
      h3 {
         color: rgb(100, 235, 156);
         margin-left: 10px;  margin-right: 1100px;
      }
+
+     h4 {
+        color: rgb(21, 32, 66);
+        margin-left: 600px;  margin-right: 100px;
+     }
+     h5 {
+        color:red;
+        margin-left: 550px; margin-right: 100px;
+     }
+
+     h6 {
+      margin-left: 230px;  margin-right: 100px;
+     }
+    
+     h7  {
+      margin-left: 590px;  margin-right: 100px;
+     }
   </style>
+  <img src="img/photo.png" alt="photo.png" />
 <hr><br>
-    <img src="img/photo.png" alt="photo.png" />
-    <button id="close" class="closing" onClick="javascript:close_clip()"><img src="icons/close.png" /></button>
-    <button type="button">Click Me!</button>
-  </body>
-  <a href='#biaoti'>
-        <button>
-            Click Me
-        </button>
-</a>
-<a href='https://ide.geeksforgeeks.org/'>
-  <button>
-      Click Me
-  </button>
-</a>
-    <p>I'm a <span style="color:blue">STUDENT</span> in Rome</p>
+<a id="contacts"></a>
+<div id="r"></div>
+   <div id="g"></div>
+   <div id="b"></div>
+   <h4>My contacts:</h4>                                                   
+   <h6>TEL📱:</h6><h5>+39(Italy) 328 336 7948(new)</h5>
+   <h6>GMAIL1📮:</h6><h5>federicozhouyh@gmail.com</h5>
+   <h6>GMAIL2📮:</h6><h5>federicozhou08@gmail.com</h5>
+   <h6>ADRESS🛣️:</h6><h5>via Trionfale 11310(my house)</h5>
+   <h7>© 2022 june-august 2022</h7>
 </html>
